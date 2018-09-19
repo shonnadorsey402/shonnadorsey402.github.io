@@ -10,9 +10,16 @@ body {
     padding: 100px;
 }
 
+header, footer {
+  transition: background-color 0.5s ease;
+  background-color: #666;
+}
+header:hover, footer:hover {
+  background-color: green;
+
+
 /* Style the header */
 header {
-    background-color: #666;
     padding: 30px;
     text-align: center;
     font-size: 35px;
