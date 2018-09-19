@@ -81,6 +81,10 @@ article {
     nav{
         height: 100%;
     }
+    
+    #animated {
+        animate: 0;
+    }
 }
 }button {
     background-color: #013B7B; /* Mutual of Omaha Blue */
