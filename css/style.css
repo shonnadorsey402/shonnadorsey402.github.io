@@ -11,7 +11,8 @@ body {
 }
 
 .container {
-    padding: 20%;
+    /*top right bottom left*/
+    padding: 5% 3% 5% 3%;
 }
 
 /* Style the header */
