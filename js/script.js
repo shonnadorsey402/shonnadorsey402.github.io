@@ -1,7 +1,6 @@
 $(document).ready(function(){
-	$("#animate").click(function(){
-		$("body").css("background-color","red");
-	});
-});
-				
+    $("button").click(function(){
+        $("body").toggleClass("palm");
+    });
+})			
 
