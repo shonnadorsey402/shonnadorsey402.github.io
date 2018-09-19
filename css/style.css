@@ -4,6 +4,8 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    transition: all 2.0s ease;
+    background-image: url('https://images.pexels.com/photos/768943/pexels-photo-768943.jpeg');
 }
 
 .container {
