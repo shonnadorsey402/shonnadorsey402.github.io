@@ -30,7 +30,7 @@ header, footer {
   color: #f3f3f3;
 }
 header:hover, footer:hover {
-  transition: background-color 3s ease;
+  transition: background-color 3s ease-in-out;
   background-color: green;
   color: red;
 }
