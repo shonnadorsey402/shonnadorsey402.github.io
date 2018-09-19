@@ -100,9 +100,6 @@ font-weight:bold;
 font-size:20px;
 padding:10px;
 animation:animated_div 5s 1;
--moz-animation:animated_div 5s 1;
--webkit-animation:animated_div 5s 1;
--o-animation:animated_div 5s 1;
 border-radius:5px;
 -webkit-border-radius:5px;
 }
