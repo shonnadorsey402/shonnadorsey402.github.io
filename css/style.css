@@ -26,11 +26,11 @@ footer {
 }
 
 header, footer {
-  transition: background-color 0.8s ease;
   background-color: #666;
   color: #f3f3f3;
 }
 header:hover, footer:hover {
+  transition: background-color 0.8s ease;
   background-color: green;
   color: red;
 }
