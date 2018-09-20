@@ -116,7 +116,7 @@ position: relative;
 font-weight:bold;
 font-size:20px;
 padding:10px;
-animation:animated 5s 3;
+animation:animated 5s 1;
 border-radius:5px;
 -webkit-border-radius:5px;
 }
