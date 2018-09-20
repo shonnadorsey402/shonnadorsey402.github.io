@@ -5,7 +5,9 @@ $(document).ready(function(){
         $("nav").toggleClass("navigation");
         $("a").toggleClass("links");
         $("article").toggleClass("content");
-        $("#update").text("Click the button below to return to the default layout!");
+        $("#update").toggleClass(function(){
+            $("#update").text("Click the button below to return to the default layout!");
+        });
     });
 });			
 
