@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("body").css({"background": "#6B0200", "color", "#fff"});
+    $("body").css({"background-color": "#6B0200", "color":"#fff"});
     $("button").click(function(){
         $("body").toggleClass("fall");
         $("header, footer").toggleClass("text");
