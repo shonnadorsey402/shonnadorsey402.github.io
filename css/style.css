@@ -71,6 +71,15 @@ nav ul {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    transition: text-decoration 2s ease-in-out;
+    text-decoration: none;
+}    
+
 /* Style the content */
 article {
     -webkit-flex: 3.5;
