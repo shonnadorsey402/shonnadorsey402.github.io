@@ -76,7 +76,6 @@ a {
 }
 
 a:hover {
-    transition: text-decoration 2s ease-in-out;
     text-decoration: underline;
 }    
 
