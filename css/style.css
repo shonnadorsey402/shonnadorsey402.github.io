@@ -4,6 +4,7 @@
 }
 .text {
     color: #fff;
+    background: #6B0200;
 }
 .content {
     background-image: url("https://images.pexels.com/photos/589840/pexels-photo-589840.jpeg");
@@ -41,11 +42,11 @@ footer {
     color: #f3f3f3;
 }
 
-header:hover, footer:hover {
+/*header:hover, footer:hover {
   transition: background-color 1s ease-in-out;
   background-color: #6B0200;
   color: #fff;
-}
+}*/
 
 /*flexbox content required for media queries*/
 section {
@@ -105,7 +106,7 @@ button:hover {
 font-family: 'Raleway';    
 width:200px;
 padding: 5px;
-background: #BD0D00;
+background: #6B0200;
 color: #fff;
 position: relative;
 font-weight:bold;
