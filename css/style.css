@@ -86,7 +86,7 @@ article {
 }
 
 button:hover {
-    box-shadow: 5px grey;
+    box-shadow: 5px 5px 5px grey;
 } 
 
 #animated {
