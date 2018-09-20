@@ -111,6 +111,6 @@ border-radius:5px;
 25% {transform: rotate(20deg);left:0px;}
 50% {transform: rotate(0deg);left:500px;}
 55% {transform: rotate(0deg);left:500px;}
-70% {transform: rotate(0deg);left:500px;background:#C95101; color:#fff; font-family:'Homemade Apple'}
+70% {transform: rotate(0deg);left:500px;background:#C95101; color:#fff;}
 100% {transform: rotate(-360deg);left:0px;}
 }
