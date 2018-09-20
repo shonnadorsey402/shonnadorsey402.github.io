@@ -1,12 +1,8 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
     font-family: Raleway;
 }
 
-.fall {
+#fall {
     background-image: url("https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg");
 }
 
@@ -31,14 +27,16 @@ footer {
 }
 
 header, footer {
-  transition: background-color 3s ease-in-out;
+  transition: background-color 1s ease-in-out;
   background: #666;
   color: #f3f3f3;
 }
 header:hover, footer:hover {
   background-color: green;
+  color: neon;
 }
 
+/*flexbox content required for media queries*/
 section {
     display: -webkit-flex;
     display: flex;
@@ -86,7 +84,9 @@ article {
         animate: 0;
     }
 }
-}button {
+
+
+button {
     background-color: #013B7B; /* Mutual of Omaha Blue */
     border: none;
     color: white;
@@ -106,8 +106,8 @@ button:hover {
 #animated {
 width:100px;
 height:47px;
-background: #92B901;
-color: #ffffff;
+background: #013B7B;
+color: #fff;
 position: relative;
 font-weight:bold;
 font-size:20px;
@@ -123,6 +123,6 @@ border-radius:5px;
 25% {transform: rotate(20deg);left:0px;}
 50% {transform: rotate(0deg);left:500px;}
 55% {transform: rotate(0deg);left:500px;}
-70% {transform: rotate(0deg);left:500px;background:#1ec7e6;}
+70% {transform: rotate(0deg);left:500px;background:#fff; color:#013B7B;}
 100% {transform: rotate(-360deg);left:0px;}
 }
