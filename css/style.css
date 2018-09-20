@@ -95,6 +95,10 @@ footer {
     #animated {
         animate: 0;
     }
+    
+    hr {
+        display: none;
+    }
 }
 
 button:hover {
