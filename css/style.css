@@ -25,7 +25,6 @@
     font-family: 'Raleway';    
 }
 
-/* Style the header */
 header {
     font-family: 'Homemade Apple', cursive;
     text-align: center;
@@ -33,20 +32,6 @@ header {
     color: #333;
     padding: 30px 30px 5px 30px;
 }
-
-/* Style the footer */
-footer {
-    padding: 10px;
-    text-align: center;
-    background: #666;
-    color: #f3f3f3;
-}
-
-/*header:hover, footer:hover {
-  transition: background-color 1s ease-in-out;
-  background-color: #6B0200;
-  color: #fff;
-}*/
 
 /*flexbox content required for media queries*/
 section {
@@ -56,9 +41,9 @@ section {
 
 /* Style the navigation menu */
 nav {
-    -webkit-flex: .5;
-    -ms-flex: .5;
-    flex: .5;
+    -webkit-flex: 20%;
+    -ms-flex: 20%;
+    flex: 20%;
     background: #ccc;
     padding: 10px;
     height: 1000px; 
@@ -81,11 +66,18 @@ a:hover {
 
 /* Style the content */
 article {
-    -webkit-flex: 3.5;
-    -ms-flex: 3.5;
-    flex: 3.5;
+    -webkit-flex: 80%;
+    -ms-flex: 80%;
+    flex: 80%;
     background-color: #f1f1f1;
     padding: 10px;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background: #666;
+    color: #f3f3f3;
 }
 
 
