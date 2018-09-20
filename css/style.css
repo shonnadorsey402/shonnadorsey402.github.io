@@ -10,8 +10,14 @@
     color: #fff;
 }
 .navigation {
-    background:#C95101;
+    background:#6B0200;
     color: white;
+}
+
+.links {
+    a {
+        color:white;
+    }
 }
 
 .container {
