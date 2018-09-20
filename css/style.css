@@ -86,12 +86,14 @@ article {
 }
 
 button:hover {
+    transition: box-shadow 1s ease-in-out;    
     box-shadow: 5px 5px 5px grey;
 } 
 
 #animated {
-width:100px;
-height:47px;
+font-family: 'Raleway';    
+width:100%;
+padding: 5px;
 background: #013B7B;
 color: #fff;
 position: relative;
