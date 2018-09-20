@@ -1,13 +1,12 @@
 $(document).ready(function(){
+    $("body").css("background", "#6B0200");
     $("button").click(function(){
         $("body").toggleClass("fall");
         $("header, footer").toggleClass("text");
         $("nav").toggleClass("navigation");
         $("a").toggleClass("links");
         $("article").toggleClass("content");
-        $("#update").toggleClass(function(){
-            $("#update").text("Click the button below to return to the default layout!");
-        });
+        $("#update").toggleClass("hide");
     });
 });			
 
