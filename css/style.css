@@ -5,11 +5,11 @@
 .text {
     color: #fff;
 }
-.article {
+.content {
     background-image: url("https://images.pexels.com/photos/589840/pexels-photo-589840.jpeg");
     color: #fff;
 }
-.nav {
+.navigation {
     background:#C95101;
     color: white;
 }
