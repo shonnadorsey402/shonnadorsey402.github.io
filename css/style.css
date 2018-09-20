@@ -14,7 +14,6 @@ body {
 
 /* Style the header */
 header {
-    padding: 30px;
     text-align: center;
     font-size: 35px;
     color: #333;
@@ -24,21 +23,12 @@ header {
 footer {
     padding: 10px;
     text-align: center;
-    color: white;
-}
-
-header {
-  transition: background-color 1s ease-in-out;
-  color: #f3f3f3;
-}
-
-footer {
-  transition: background-color 1s ease-in-out;
-  background: #666;
-  color: #f3f3f3;
+    background: #666;
+    color: #f3f3f3;
 }
 
 header:hover, footer:hover {
+  transition: background-color 1s ease-in-out;
   background-color: #6B0200;
   color: #fff;
 }
