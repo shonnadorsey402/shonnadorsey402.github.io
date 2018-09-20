@@ -27,14 +27,20 @@ footer {
     color: white;
 }
 
-header, footer {
+header {
+  transition: background-color 1s ease-in-out;
+  color: #f3f3f3;
+}
+
+footer {
   transition: background-color 1s ease-in-out;
   background: #666;
   color: #f3f3f3;
 }
+
 header:hover, footer:hover {
-  background-color: green;
-  color: neon;
+  background-color: #6B0200;
+  color: #fff;
 }
 
 /*flexbox content required for media queries*/
