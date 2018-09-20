@@ -1,10 +1,16 @@
+
 body {
     font-family: 'Homemade Apple', cursive;
     
 }
 
+/*toggleClass content for jQuery */
 .fall {
     background-image: url("https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg");
+}
+
+.text {
+    color: #fff;
 }
 
 .container {
