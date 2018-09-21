@@ -84,7 +84,7 @@ button:hover{
 
 #animated{
   font-family:'Raleway';
-  width;#fae6ffx;
+  width:#200px;
   padding:5px;
   background:#6B0200;
   color:#fff;
@@ -99,12 +99,12 @@ button:hover{
 
 @keyframes animated
 {
-  0% {transform:rotate(0deg);left;0px;}
-  25% {transform:rotate(20deg);left;0px;}
-  50% {transform:rotate(0deg);left;500px;}
-  55% {transform:rotate(0deg);left;500px;}
-  70% {transform:rotate(0deg);left;500px; background:#c95101; color:#fff;}
-  100% {transform:rotate(-720deg);left;0px;}
+  0% {transform:rotate(0deg);left:0px;}
+  25% {transform:rotate(20deg);left:0px;}
+  50% {transform:rotate(0deg);left:500px;}
+  55% {transform:rotate(0deg);left:500px;}
+  70% {transform:rotate(0deg);left:500px; background:#c95101; color:#fff;}
+  100% {transform:rotate(-720deg);left:0px;}
 }
   
  
