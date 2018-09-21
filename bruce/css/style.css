@@ -1,11 +1,11 @@
 body {
-  background: url("https://images.pexels.com/photos/725993/pexels-photo-725993.jpeg");
+  background: url("https://www.pexels.com/photo/photo-of-airplane-on-road-near-grass-field-1430794/");
   background-repeat: no-repeat;
   background-size: cover;
 }
   
-#gold {
-  color: gold; 
+#blue {
+  color: blue; 
 }
 
 /*make the image corners round and resize all images*/
@@ -22,12 +22,12 @@ a {
 
 a:hover {
   text-decoration: underline;
-  background: red; /*change to a different color*/
-  box-shadow: 5px 5px 5px green; /*change to a different color*/
+  background: green; /*change to a different color*/
+  box-shadow: 5px 5px 5px yellow; /*change to a different color*/
 }
 
 h3 {
-  color: orange; /*change to a different color*/
+  color: blue; /*change to a different color*/
   font-weight: 73em; /*bold text*/
 }
 
