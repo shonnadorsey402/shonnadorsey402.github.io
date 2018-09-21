@@ -1,36 +1,105 @@
-body {
-  background: url("https://images.pexels.com/photos/725993/pexels-photo-725993.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-  
-#gold {
-  color: gold; 
+.fall {
+  background-image: url('');
 }
 
-/*make the image corners round and resize all images*/
-img {
-  border-radius: 4em;/*1 em = 16px*/
-  height: 20em; /*force image height to be uniform*/
-  width: auto; /*automatically resize width in proportion to image height*/
-  display:none;
+.text {
+  color: #fff;
+  background: blue;
+}
+
+.content {
+  background-image: url('');
+  color: #fff;
+}
+
+.navigation {
+  background: blue;
+  color: white;
+}
+
+.links {
+  color: #ffffff;
+}
+
+.container {
+  padding: 5% 3% 5% 3%;
+  font-family: 'Raleway';
+}
+
+header {
+  font-family: 'Homemade Apple', cursive;
+  text-align: center;
+  font-size:35px;
+  color: #333;
+  padding: 30px 30px 5px 30px;
+}
+
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+nav {
+  -webkit-flex: 20%;
+  -ms-flex: 20%;
+  flex: 20%;
+  background: #ccc;
+  padding: 10px;
+  height: 1000px;
+  overflow-y: hidden;
+}
+
+nav ul {
+  list-style-type:none;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
 }
-  
 
 a:hover {
   text-decoration: underline;
-  background: red; /*change to a different color*/
-  box-shadow: 5px 5px 5px green; /*change to a different color*/
 }
 
-h3 {
-  color: orange; /*change to a different color*/
-  font-weight: 73em; /*bold text*/
+-webkit-flex: 80%;
+-ms-flex: 80%;
+flex: 80%;
+background-color: #f1f1f1;
+padding: 10px;
 }
 
+button:hover {
+  transition: box-shadow 1s ease-in-out;
+  box-shadow: 5px 5px 5px grey;
+}
 
+#animated {
+  font-family: 'Raleway';
+  width: 200px;
+  padding: 5px;
+  background: #6B0200;
+  color: #fff;
+  position: relative; 
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  animated: 5s 1;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+@keyframes animated {
+  0%{transform: rotate(0deg);left:0px;}
+  25%{transform: rotate(20deg);left:0px;}
+  50%{transform: rotate(0deg);left:500px;}
+  55%{transform: rotate(0deg);left:500px;}
+  70%{transform: rotate(0deg);left:500px;background#c95101;color:#fff;}
+  100%{transform: rotate(-1800deg);left:0px;}
+}
+
+  
+  
     
+
+
