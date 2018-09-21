@@ -1,11 +1,11 @@
 body {
-  background: url("https://images.pexels.com/photos/725993/pexels-photo-725993.jpeg");
+  background: url("https://www.pexels.com/photo/blue-and-black-butterfly-66268/");
   background-repeat: no-repeat;
   background-size: cover;
 }
   
-#gold {
-  color: gold; 
+#blue {
+  color: #33D1FF; 
 }
 
 /*make the image corners round and resize all images*/
@@ -13,6 +13,7 @@ img {
   border-radius: 4em;/*1 em = 16px*/
   height: 20em; /*force image height to be uniform*/
   width: auto; /*automatically resize width in proportion to image height*/
+  display:none;
 }
 
 a {
