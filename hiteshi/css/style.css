@@ -114,3 +114,13 @@ border-radius:5px;
    70% {transform: rotate(0deg);left:500px;background:#C95101; color:#fff;}
    100% {transform: rotate(-720 deg);left:0px;}
       } 
+$(document).ready(function(){
+    $("button").click(function(){
+       $("body").toggleClass("fall");
+       $("header' footer").toggleClass("text");
+       $("nav").toggleclass("navigation");
+       $("a").toggleclass("links");
+       $("article").toggleClass("content");
+       $("#update").toggleclass("hide");
+   });
+      });
