@@ -114,7 +114,7 @@ button:hover {
   25% {transform: rotate(20deg);left:0px;}
   50% {transform: rotate(0deg);left:500px;}
   55% {transform: rotate(0deg);left:500px;}
-  70% {transform: rotate(0deg);left:500px;background:#C95101; color:#ffff;}
+  70% {transform: rotate(0deg);left:500px;background:#C95101; color:#fff;}
   100% {transform: rotate(-720deg);left:0px;}
 }
 
