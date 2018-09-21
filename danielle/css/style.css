@@ -13,7 +13,7 @@
   color: #7D3C98;
 }
 .navigation {
-  background:blue;
+  background: blue;
 }
 .links {
   color: #0B5345;
@@ -39,7 +39,7 @@ section {
 }
 /*Style the navigation menu*/
 nav {
-  -webkit-flex: 20%
+  -webkit-flex: 20%;
     - ms-flex: 20%;
   flex: 20%;
   background: #ccc;
