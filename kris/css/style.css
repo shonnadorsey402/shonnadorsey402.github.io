@@ -16,7 +16,7 @@
 .links {
   color: #fff;
 }
-.container{
+.container {
   padding: 5% 3% 5% 3%;
   font-family: 'Raleway';
 }
@@ -30,6 +30,32 @@ header {
 section {
   display: -webkit-flex;
   display: flex;
+}
+nav {
+  -webkit-flex: 20%;
+  -ms-flex: 20;
+  flex: 20%'
+    background: #ccc;
+  padding: 10px;
+  height: 1000px;
+  overflow-y: hiddne;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+article {
+  -webkit-flex: 80%'
+  -ms-flex: 80%;
+  flex: 80%
+  background-color: #f1f1f1;
+  padding: 10px;
 }
 @media (max-width: 600px) {
   section {
