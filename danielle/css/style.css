@@ -4,17 +4,17 @@
 }
 
 .text {
-  color: #fff
+  color: #F5B041
     background: brown
    ;
 }
 .content {
   background-image:  url("https://images.pexels.com/photos/103540/pexels-photo-103540.jpeg");
-  color: #fff;
+  color: #7D3C98;
 }
 .navigation {
   background:blue;
 }
 .links {
-  color: #fff;
+  color: #0B5345;
 }
