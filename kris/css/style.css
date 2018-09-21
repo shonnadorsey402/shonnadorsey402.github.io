@@ -34,11 +34,11 @@ section {
 nav {
   -webkit-flex: 20%;
   -ms-flex: 20;
-  flex: 20%'
-    background: #ccc;
+  flex: 20%;
+  background: #ccc;
   padding: 10px;
   height: 1000px;
-  overflow-y: hiddne;
+  overflow-y: hidden;
 }
 nav ul {
   list-style-type: none;
