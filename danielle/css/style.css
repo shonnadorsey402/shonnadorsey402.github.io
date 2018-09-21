@@ -4,9 +4,8 @@
 }
 
 .text {
-  color: #F5B041
-    background: brown
-   ;
+  color: #F5B041;
+    background: brown;
 }
 .content {
   background-image:  url("https://images.pexels.com/photos/103540/pexels-photo-103540.jpeg");
@@ -29,7 +28,7 @@ header {
   font-family: 'Homemade Apple', cursive;
   text-align: center;
   font-size: 35px;
-  color: #3333
+  color: #333;
     padding: 30px 30px 5px 30px;
 }
 /*flexbox content required for media queries*/
@@ -48,7 +47,7 @@ nav {
   overflow-y: hidden;
 }
 /*Style the list insdie the menu */
-new ul {
+nav ul {
   list-style-type: none;
   padding: 0;
 }
