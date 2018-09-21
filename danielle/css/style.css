@@ -1,1 +1,20 @@
+/*toggleClass content for jQery */
+.fall {
+  background-image: url("https://images.pexels.com/photos/40544/english-bulldog-bulldog-canine-dog-40544.jpeg");
+}
 
+.text {
+  color: #fff
+    background: brown
+   ;
+}
+.content {
+  background-image:  url("https://images.pexels.com/photos/103540/pexels-photo-103540.jpeg");
+  color: #fff;
+}
+.navigation {
+  background:blue;
+}
+.links {
+  color: #fff;
+}
