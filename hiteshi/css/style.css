@@ -1,36 +1,19 @@
-body {
-  background: url("https://images.pexels.com/photos/45170/kittens-cat-cat-puppy-rush-45170.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
+.fall {
+   background-image: url("https://images.pexels.com/photos/40884/bench-fall-park-rest-40884.jpeg")
 }
-  
-#Purple {
-  color: Purple; 
+.text{
+  color: #fff;
+  background: #6B0200;
 }
-
-/*make the image corners round and resize all images*/
-img {
-  border-radius: 4em;/*1 em = 16px*/
-  height: 20em; /*force image height to be uniform*/
-  width: auto; /*automatically resize width in proportion to image height*/
-display: none;
+.content {
+  background-image: url("https://images.pexels.com/photos/669015/pexels-photo-669015.jpeg");
+  color: #fff;
+}
+.navigation {
+  background:#6B0200;
+  color: white;
 }
 
-a {
-  text-decoration: none;
+.links {
+    color: #fff;
 }
-  
-
-a:hover {
-  text-decoration: underline;
-  background: blue; /*change to a different color*/
-  box-shadow: 5px 5px 5px Gray; /*change to a different color*/
-}
-
-h3 {
-  color: Beige; /*change to a different color*/
-  font-weight: 73em; /*bold text*/
-}
-
-
-    
