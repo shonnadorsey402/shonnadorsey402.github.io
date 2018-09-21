@@ -13,7 +13,7 @@ img {
   border-radius: 4em;/*1 em = 16px*/
   height: 20em; /*force image height to be uniform*/
   width: auto; /*automatically resize width in proportion to image height*/
-display; none;
+display: none;
 }
 
 a {
