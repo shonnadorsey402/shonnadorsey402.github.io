@@ -37,3 +37,51 @@ section {
   display: -webkit-flex;
   display: flex;
 }
+/*Style the navigation menu*/
+nav {
+  -webkit-flex: 20%
+    - ms-flex: 20%;
+  flex: 20%;
+  background: #ccc;
+  padding: 10px;
+  height: 1000px;
+  overflow-y: hidden;
+}
+/*Style the list insdie the menu */
+new ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+/*Style the content */
+article {
+  -webkit-flex: 80%;
+  -ms-flex: 80%;
+  flex: 80%;
+  background-color: #flflfl;
+  padding: 10px;
+}
+@media (max-width: 600px){
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+  
+  nav{
+    height: 100%;
+  }
+  
+  #animated {
+    animate: 0;
+  }
+  hr {
+    display: none;
+  }
+}
