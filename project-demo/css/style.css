@@ -1,0 +1,132 @@
+/*toggleClass content for jQuery */
+.fall {
+    background-image: url("https://images.pexels.com/photos/230629/pexels-photo-230629.jpeg");
+}
+.text {
+    color: #fff;
+    background: #6B0200;
+}
+.content {
+    background-image: url("https://images.pexels.com/photos/589840/pexels-photo-589840.jpeg");
+    color: #fff;
+}
+.navigation {
+    background:#6B0200;
+    color: white;
+}
+
+.links {
+        color: #fff;
+}
+
+.container {
+    /*top right bottom left*/
+    padding: 5% 3% 5% 3%;
+    font-family: 'Raleway';    
+}
+
+header {
+    font-family: 'Homemade Apple', cursive;
+    text-align: center;
+    font-size: 35px;
+    color: #333;
+    padding: 30px 30px 5px 30px;
+}
+
+/*flexbox content required for media queries*/
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+    -webkit-flex: 20%;
+    -ms-flex: 20%;
+    flex: 20%;    
+    background: #ccc;
+    padding: 10px;
+    height: 1000px; 
+    overflow-y: hidden;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}    
+
+/* Style the content */
+article {
+    -webkit-flex: 80%;
+    -ms-flex: 80%;
+    flex: 80%;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background: #666;
+    color: #f3f3f3;
+}
+
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+    
+    nav{
+        height: 100%;
+    }
+    
+    #animated {
+        animate: 0;
+    }
+    
+    hr {
+        display: none;
+    }
+}
+
+button:hover {
+    transition: box-shadow 1s ease-in-out;    
+    box-shadow: 5px 5px 5px grey;
+} 
+
+#animated {
+font-family: 'Raleway';    
+width:200px;
+padding: 5px;
+background: #6B0200;
+color: #fff;
+position: relative;
+font-weight:bold;
+font-size:20px;
+padding:10px;
+animation:animated 5s 1;
+border-radius:5px;
+-webkit-border-radius:5px;
+}
+
+@keyframes animated
+{
+0% {transform: rotate(0deg);left:0px;}
+25% {transform: rotate(20deg);left:0px;}
+50% {transform: rotate(0deg);left:500px;}
+60% {transform: rotate(0deg);left:500px;}    
+75% {transform: rotate(0deg);left:500px;background:#C95101; color:#fff;}
+100% {transform: rotate(-720deg);left:0px;}
+}
