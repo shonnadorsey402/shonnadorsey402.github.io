@@ -73,10 +73,10 @@ article {
   }
 }
 button:hover {
-  transition: box-shadow is ease-in-out;
+  transition: box-shadow 1s ease-in-out;
     box-shadow: 5px 5px 5px grey;
 }
-animated {
+#animated {
   font-family: 'Raleway';
   width:200px;
   padding: 5px;
