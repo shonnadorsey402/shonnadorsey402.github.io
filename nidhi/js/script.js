@@ -1,6 +1,10 @@
 $(document).ready(function(){
-$('img').fadeIn(slow);
 $('button').click(function(){
-  $('img').hide();
+  $('body').toggleClass('Spring');
+  $('header,footer').toggleClass("text");
+  $('nav').toggleClass('navigation');
+  $('a').toggleClass('links');
+  $('article').toggleClass('content);
+  $('#update').toggleClass('hide');
 }) ;
 });
