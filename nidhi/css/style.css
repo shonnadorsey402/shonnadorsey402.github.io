@@ -1,12 +1,12 @@
 .Spring{
-  background-image:url("https://images.pexels.com/photos/46164/field-of-rapeseeds-oilseed-rape-blutenmeer-yellow-46164.jpeg");
+  background-image:url("https://images.pexels.com/photos/39574/flower-exotic-colorful-pink-39574.jpeg");
 }
 .text{
   color:#990099;
     background:#ffe6ff;
 }
 .content{
-  background-image:url("https://images.pexels.com/photos/36770/flower-lily-lilium-candidum-madonna-lily.jpg");
+  background-image:url("https://images.pexels.com/photos/10462/pexels-photo-10462.jpeg");
   color:#ffff66;
 }
 .navigation{
@@ -92,7 +92,7 @@ button:hover{
   font-weight:bold;
   font-size:20px;
   padding:10px;
-  animation:animated 5s infinite;
+  animation:animated 5s 1;
   border-radius:5px;
   -webkit-border-radius:5px;
 }
