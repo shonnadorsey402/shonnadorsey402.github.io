@@ -1,11 +1,11 @@
 body {
-  background: url("https://images.pexels.com/photos/725993/pexels-photo-725993.jpeg");
+  background: url("https://images.pexels.com/photos/170849/pexels-photo-170849.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
   
-#gold {
-  color: gold; 
+#orange {
+  color: orange; 
 }
 
 /*make the image corners round and resize all images*/
@@ -24,11 +24,11 @@ a {
 a:hover {
   text-decoration: underline;
   background: red; /*change to a different color*/
-  box-shadow: 5px 5px 5px green; /*change to a different color*/
+  box-shadow: 5px 5px 5px white; /*change to a different color*/
 }
 
 h3 {
-  color: orange; /*change to a different color*/
+  color: green; /*change to a different color*/
   font-weight: 73em; /*bold text*/
 }
 
