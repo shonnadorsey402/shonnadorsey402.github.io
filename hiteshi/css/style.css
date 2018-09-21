@@ -1,11 +1,11 @@
 body {
-  background: url("https://images.pexels.com/photos/725993/pexels-photo-725993.jpeg");
+  background: url("https://images.pexels.com/photos/45170/kittens-cat-cat-puppy-rush-45170.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
   
-#gold {
-  color: gold; 
+#Purple {
+  color: Purple; 
 }
 
 /*make the image corners round and resize all images*/
@@ -13,6 +13,7 @@ img {
   border-radius: 4em;/*1 em = 16px*/
   height: 20em; /*force image height to be uniform*/
   width: auto; /*automatically resize width in proportion to image height*/
+display; none;
 }
 
 a {
@@ -22,12 +23,12 @@ a {
 
 a:hover {
   text-decoration: underline;
-  background: red; /*change to a different color*/
-  box-shadow: 5px 5px 5px green; /*change to a different color*/
+  background: blue; /*change to a different color*/
+  box-shadow: 5px 5px 5px Gray; /*change to a different color*/
 }
 
 h3 {
-  color: orange; /*change to a different color*/
+  color: Beige; /*change to a different color*/
   font-weight: 73em; /*bold text*/
 }
 
