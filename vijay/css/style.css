@@ -43,7 +43,7 @@ nav {
   flex: 20%;
   background: #ccc;
   padding: 10px;
-  height: 1000px
+  height: 1000px;
   overflow-y: hidden;
 }
 
