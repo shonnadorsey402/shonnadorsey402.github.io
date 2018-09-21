@@ -1,5 +1,10 @@
 $(document).ready(function(){
-$('img').fadeIn(slow)
-$('button').click(function(){
-   $('img').hide();
-});
+    $("button").click(function(){
+       $("body").toggleClass("fall");
+       $("header' footer").toggleClass("text");
+       $("nav").toggleclass("navigation");
+       $("a").toggleclass("links");
+       $("article").toggleClass("content");
+       $("#update").toggleclass("hide");
+   });
+      });
