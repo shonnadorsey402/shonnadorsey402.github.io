@@ -4,7 +4,7 @@ $('button').click(function(){
   $('header,footer').toggleClass("text");
   $('nav').toggleClass('navigation');
   $('a').toggleClass('links');
-  $('article').toggleClass('content);
+  $('article').toggleClass('content');
   $('#update').toggleClass('hide');
 }) ;
 });
