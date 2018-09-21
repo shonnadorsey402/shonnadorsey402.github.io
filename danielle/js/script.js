@@ -1,5 +1,5 @@
 $(document).ready(function(){
-$(button").click(function(){
+$('button').click(function(){
     $('ody'.toggleClass('all';
     $('header.footer').toggleClass('text');
     $('nav').toggleClass('navigation');
