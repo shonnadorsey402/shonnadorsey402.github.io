@@ -1,35 +1,21 @@
-body {
-  background: url("https://images.pexels.com/photos/347144/pexels-photo-347144.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
+.fall {
+  background-image: url("https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg");
 }
-  
-#purple {
-  color: purple; 
+.text {
+  color: #fff;
+  background: #6B0200;
 }
-
-/*make the image corners round and resize all images*/
-img {
-  border-radius: 4em;/*1 em = 16px*/
-  height: 20em; /*force image height to be uniform*/
-  width: auto; /*automatically resize width in proportion to image height*/
-  display:none;
+.content {
+  background-image: url("https://images.pexels.com/photos/589840/pexels-photo-589840.jpeg");
+  color: #fff;
+}
+.navigation {
+  background:#6B0200;
+  color: white;
 }
 
-a {
-  text-decoration: none;
-}
-  
-
-a:hover {
-  text-decoration: underline;
-  background: tan; /*change to a different color*/
-  box-shadow: 5px 5px 5px brown; /*change to a different color*/
-}
-
-h3 {
-  color: blue; /*change to a different color*/
-  font-weight: 73em; /*bold text*/
+.links {
+  color: #fff;
 }
 
 
