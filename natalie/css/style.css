@@ -19,3 +19,25 @@
 .links {
   color: #fff;
 } 
+
+.container {
+  /*top right botton left*/
+  padding: 5% 3% 5% 3%;
+  font-family: 'Raleway'; 
+} 
+
+header {
+  font-family: 'Homemade Apple', cursive;
+  text-align: center;
+  font-size: 35px;
+  color: #333;
+  padding 30px 30px 5px 30px;
+}
+
+/*flexbox content required for media queries */
+section {
+  display: -webkit-flex;
+  dispaly: flex;
+}
+  
+
