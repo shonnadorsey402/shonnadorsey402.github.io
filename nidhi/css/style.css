@@ -34,12 +34,12 @@ section{
 }
 
 nav{
-  -webkit-flex:20%
-  -ms-flex:20%
-   flex: 20%
+  -webkit-flex:20%;
+  -ms-flex:20%;
+   flex: 20%;
    background:#ccc:
    padding:10px;
-   height: 1000px:
+   height: 1000px;
    overflow-y: hidden;
 }
 nav ul{
@@ -55,9 +55,9 @@ a:hover{
 }
 
 article{
-  -webkit-flex:80%
-  -ms-flex:80%
-   flex: 80%
+  -webkit-flex:80%;
+  -ms-flex:80%;
+   flex: 80%;
    background-color: #f1f1f;
    padding:10px;
 }
