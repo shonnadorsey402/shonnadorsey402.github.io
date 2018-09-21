@@ -1,7 +1,11 @@
 $(document).ready(function(){
-$('img').fadein(slow);
 $('button').click(function(){
-    $('img').hide();
+    $('body').toggleClass("fall");
+    $('header.footer').toggleClass("text");
+    $('nav').toggleClass("navigation");
+    $('a').toggleClass("links");
+    $('article').toggleClass("content");
+    $('#update').toggleClass("hide");
 });
 });
     
