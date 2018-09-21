@@ -1,36 +1,21 @@
-body {
-  background: url("https://images.pexels.com/photos/1195941/pexels-photo-1195941.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-  
-#green {
-  color: green; 
+/*toggleclass content for jQuery */
+.fall {
+  background-image: url("http://images.pexels.com/photos/33109/fall-autum-red-season.jpg");
 }
 
-/*make the image corners round and resize all images*/
-img {
-  border-radius: 4em;/*1 em = 16px*/
-  height: 20em; /*force image height to be uniform*/
-  width: auto; /*automatically resize width in proportion to image height*/
-  display:none;
+.text {
+  color: #fff;
+  background: #680200;
 }
 
-a {
-  text-decoration: none;
-}
-  
-
-a:hover {
-  text-decoration: underline;
-  background: pink; /*change to a different color*/
-  box-shadow: 5px 5px 5px purple; /*change to a different color*/
+.content {
+  background-image: url("http://images.pexels.com/photos/589840/pexels-photo-589840.jpeg");
 }
 
-h3 {
-  color: orange; /*change to a different color*/
-  font-weight: 73em; /*bold text*/
-}
-
-
-    
+.navigation {
+  background: #680200;
+  color: white;
+} 
+.links {
+  color: #fff;
+} 
