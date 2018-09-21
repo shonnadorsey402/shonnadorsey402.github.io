@@ -17,3 +17,54 @@
 .links {
     color: #fff;
 }
+.container {
+   /*top right bottom left*/
+   padding: 5% 3% 5% 3%;
+   font-family: 'Raleway';
+}
+
+header {
+   font-family: 'Homemade Apple', cursive;
+   text-align: center;
+   font-size: 35px;
+   color: #333;
+   padding: 30px 30px 5px 30px;
+}
+/flexbox content required for media queries*/
+section {
+   display: -webkit-flex;
+   display: flex;
+}
+/*Style the navigation menu*/
+nav{
+   -webkit-flex: 20%;
+   -ms-flex: 20%;
+   flex: 20%;
+   background: #ccc;
+   padding: 10px;
+   height: 1000px;
+   overflow-y: hidden;
+}
+
+/*Style the list inside the menu */
+nav ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+a{
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration:underline;
+}
+
+/*Style the content*/
+article {
+   -webkit-flex: 80%;
+   -ms-flex: 80%;
+   flex: 80%;
+   background-color: #f1f1f1;
+   padding:10px;
+}
