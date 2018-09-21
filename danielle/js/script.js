@@ -1,6 +1,6 @@
 $(document).ready(function(){
 $('button').click(function(){
-    $('ody'.toggleClass('all';
+    $('body'.toggleClass('fall');
     $('header.footer').toggleClass('text');
     $('nav').toggleClass('navigation');
     $('a').toggleClass('links');
