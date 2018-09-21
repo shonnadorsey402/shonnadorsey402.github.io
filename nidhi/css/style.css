@@ -1,36 +1,18 @@
-body {
-  background: url("https://images.pexels.com/photos/1431762/pexels-photo-1431762.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
+.Spring{
+  background-image:url("https://images.pexels.com/photos/46164/field-of-rapeseeds-oilseed-rape-blutenmeer-yellow-46164.jpeg");
 }
-  
-#gold {
-  color: Pink; 
+.text{
+  color:#990099;
+    background:#ffe6ff;
 }
-
-/*make the image corners round and resize all images*/
-img {
-  border-radius: 4em;/*1 em = 16px*/
-  height: 20em; /*force image height to be uniform*/
-  width: auto; /*automatically resize width in proportion to image height*/
-display:none;
+.content{
+  background-image:url("https://images.pexels.com/photos/36770/flower-lily-lilium-candidum-madonna-lily.jpg");
+  color:#ffff66;
 }
-
-a {
-  text-decoration: none;
+.navigation{
+  background:#ffc2b3;
+    color:white;
 }
-  
-
-a:hover {
-  text-decoration: underline;
-  background: yellow; /*change to a different color*/
-  box-shadow: 5px 5px 5px #ffccff; /*change to a different color*/
+.links{
+  color:#99ffff;
 }
-
-h3 {
-  color: #000066; /*change to a different color*/
-  font-weight: 73em; /*bold text*/
-}
-
-
-    
