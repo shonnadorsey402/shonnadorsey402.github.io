@@ -1,35 +1,71 @@
-body {
-  background: url("https://images.pexels.com/photos/170849/pexels-photo-170849.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
+/*Toggle class for the Jquery */
+.fall {
+  background-image: url("https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg");
 }
-  
-#orange {
-  color: orange; 
+.text {
+  color: #fff;
+  background: #6B0200;
+}
+.content{
+  background-image: url("https://images.pexels.com/photos/40884/bench-fall-park-rest-40884.jpeg");
+  color: #fff;
+}
+.navigation {
+   background:#6B0200;
+   color:white;
 }
 
-/*make the image corners round and resize all images*/
-img {
-  border-radius: 4em;/*1 em = 16px*/
-  height: 20em; /*force image height to be uniform*/
-  width: auto; /*automatically resize width in proportion to image height*/
-  display:none;
+.link {
+  color: #fff;
+}
+
+.container {
+  padding: 5% 3% 5% 3%;
+  fond-family: 'Raleway';
+}
+
+header {
+  font-family: 'Homemade Apple',cursive;
+  text-align: center;
+  font-size:35px;
+  color: #3333;
+  padding: 30px 30px 5px 30px;
+}
+
+section {
+   display: -webkit-flex;
+   display: flex;
+}
+
+nav {
+  -webkit-flex: 20%;
+  -ms-flex: 20%;
+  flex: 20%;
+  background: #ccc;
+  padding: 10px;
+  over-flow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
+  padding: 0;
 }
-  
 
 a:hover {
   text-decoration: underline;
-  background: red; /*change to a different color*/
-  box-shadow: 5px 5px 5px white; /*change to a different color*/
 }
 
-h3 {
-  color: green; /*change to a different color*/
-  font-weight: 73em; /*bold text*/
+article {
+  -webkit-flex: 80%;
+  -ms-flex: 80%;
+  flex: 80%;
+  background-color: #f1f1f1;
+  padding: 10px;
 }
 
 
