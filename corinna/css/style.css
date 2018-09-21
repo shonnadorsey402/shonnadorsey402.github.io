@@ -72,3 +72,61 @@ article {
   background-colo: #flflfl;
   padding: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+  
+  nav{
+    height: 100%;
+  }
+  
+  #animated {
+    animate: 0:
+  }
+  
+  hr {
+    display: none;
+  }
+}
+
+button:hover {
+  transition: box-shadow 1s ease-in-out;
+  box-shadow: 5px 5px 5px grey;
+}
+
+#animated {
+  font-family: 'Raleway';
+  width:200px;
+  padding: 5px;
+  background: #6B0200;
+  color: #fff;
+  position: relative;
+  font-weight:bold;
+  font-size:20px;
+  padding:10px;
+  animation:animated 5s 1;
+  border-radius:5px;
+  -webkit-border-radius:5px;
+}
+
+@keyframes animated
+{
+  0% {transform: rotate(0deg);left:0px;}
+  25% {transform: rotate(20deg);left:0px;}
+  50% {transform: rotate(0deg);left:500px;}
+  55% {transform: rotate(0deg);left:500px;}
+  70% {transform: rotate(0deg);left:500px;background:#C95101; color:#fff;}
+  100% {transform: rotate(-720deg);left:0px;}
+}
