@@ -76,3 +76,24 @@ article {
   background: #f1f1f1;
   padding:  10px;
 }
+
+@media (max-width: 600px)
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+nav {
+  height: 100%;
+}
+
+#animated {
+  animate: 0%
+}
+
+hr {
+  display: none;
+}
+}
+    
+
