@@ -41,7 +41,7 @@ nav {
   -webkit-flex: 20%;
     - ms-flex: 20%;
   flex: 20%;
-  background: #ccc;
+  background: #2471A3;
   padding: 10px;
   height: 1000px;
   overflow-y: hidden;
@@ -64,7 +64,7 @@ article {
   -webkit-flex: 80%;
   -ms-flex: 80%;
   flex: 80%;
-  background-color: #flflfl;
+  background-color: #7B241C;
   padding: 10px;
 }
 @media (max-width: 600px){
