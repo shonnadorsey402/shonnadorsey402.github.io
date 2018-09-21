@@ -1,11 +1,11 @@
 body {
-  background: url("https://images.pexels.com/photos/725993/pexels-photo-725993.jpeg");
+  background: url("https://images.pexels.com/photos/1195941/pexels-photo-1195941.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
   
-#gold {
-  color: gold; 
+#green {
+  color: green; 
 }
 
 /*make the image corners round and resize all images*/
@@ -13,6 +13,7 @@ img {
   border-radius: 4em;/*1 em = 16px*/
   height: 20em; /*force image height to be uniform*/
   width: auto; /*automatically resize width in proportion to image height*/
+  display:none;
 }
 
 a {
@@ -22,8 +23,8 @@ a {
 
 a:hover {
   text-decoration: underline;
-  background: red; /*change to a different color*/
-  box-shadow: 5px 5px 5px green; /*change to a different color*/
+  background: pink; /*change to a different color*/
+  box-shadow: 5px 5px 5px purple; /*change to a different color*/
 }
 
 h3 {
