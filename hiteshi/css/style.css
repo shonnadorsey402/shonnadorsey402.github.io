@@ -105,3 +105,12 @@ animation:animated 5s 1;
 border-radius:5px;
 -webkit-border-radius:5px;
 }
+@keyframes animated
+{
+   0% {transform: rotate(0deg);left:0px;}
+   25% {transform: rotate(20deg);left:0px;
+   50% {transform: rotate(0deg);left:500px;
+   55% {transform: rotate(0deg);left:500px;
+   70% {transform: rotate(0deg);left:500px;background:#C95101; color:#fff;}
+   100% {transform: rotate(-720 deg);left:0px;}
+      } 
