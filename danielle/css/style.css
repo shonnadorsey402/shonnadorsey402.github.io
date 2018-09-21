@@ -84,3 +84,29 @@ article {
     display: none;
   }
 }
+button:hover {
+  transition: box-shadow 1s ease-in-out;
+  box-shadow: 5px 5px 5px grey;
+}
+#animated {
+  font-family: 'Raleway';
+  width:200px;
+  padding: 5px;
+  background: #f1c40f;
+  color: #fff;
+  position: relative;
+  font-size:20px;
+  padding:10px;
+  animation:animated 5s 1;
+  border-radius: 5px;
+  -webkit-border-radius:5px;
+}
+@keyframes animated
+{
+  0% {transform: rotate(0deg);left:0px;}
+  25% {transform: rotate(20deg);left:0px;}
+  50% {transform: rotate(0deg);left:500px;}
+  55% {transform: rotate(0deg);left:500px;}
+  70% {transform: rotate(0deg);left:500px;background:#f2d7d5; color:#fff;}
+  100% {transform: rotate(-720deg);left:0px;}
+}
