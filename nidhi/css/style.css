@@ -37,7 +37,7 @@ nav{
   -webkit-flex:20%;
   -ms-flex:20%;
    flex: 20%;
-   background:#ccc;
+   background:#fae6ff;
    padding:10px;
    height: 1000px;
    overflow-y: hidden;
@@ -58,7 +58,7 @@ article{
   -webkit-flex:80%;
   -ms-flex:80%;
    flex: 80%;
-   background-color: #f1f1f1;
+   background-color: #ffffcc;
    padding:10px;
 }
 
