@@ -79,7 +79,7 @@ article{
 }
 button:hover{
   transition:box-shadow 1s ease-in-out;
-  box-shadow:5px 5px 5px grey:
+  box-shadow:5px 5px 5px grey;
 }
 
 #animated{
