@@ -16,3 +16,53 @@
 .links{
   color:#99ffff;
 }
+.container{
+  padding 5% 3% 5% 3%;
+  font-family:'Raleway';
+}
+header{
+  font-family:'Homemade Apple', cursive;
+  text-align:center;
+  font-size:35px;
+  color:#333;
+  padding: 30px 30px 5px 30px;
+}
+
+section{
+  display:=-webkit-flex;
+  display:flex;
+}
+
+nav{
+  -webkit-flex:20%
+  -ms-flex:20%
+   flex: 20%
+   background:#ccc:
+   padding:10px;
+   height: 1000px:
+   overflow-y: hidden;
+}
+nav ul{
+  list-style-type:none;
+  padding:0;
+}
+
+a{
+  text-deoration:none;
+}
+a:hover{
+  text-docoration:underline;
+}
+
+article{
+  -webkit-flex:80%
+  -ms-flex:80%
+   flex: 80%
+   background-color: #f1f1f;
+   padding:10px;
+}
+
+  
+  
+ 
+    
