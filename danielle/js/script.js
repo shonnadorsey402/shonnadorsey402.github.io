@@ -3,3 +3,5 @@ $('img').fadein(slow);
 $('button').click(function(){
     $('img').hide();
 });
+});
+    
