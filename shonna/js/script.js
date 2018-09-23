@@ -1,3 +1,4 @@
 $(document).ready(function(){
-       $('.triangle-right').fadeOut(5000);
+        $('.triangle-right').animate({right: '500px'});
+    });
 });			
