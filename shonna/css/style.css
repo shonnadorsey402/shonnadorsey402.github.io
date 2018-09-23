@@ -4,4 +4,5 @@
 	border-top: 25px solid transparent;
 	border-left: 50px solid red;
 	border-bottom: 25px solid transparent;
+	position: absolute;
 }
