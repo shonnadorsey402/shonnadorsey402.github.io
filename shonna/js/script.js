@@ -1,3 +1,3 @@
 $(document).ready(function(){
-       $('.triangle-right').fadeOut('slow');
+       $('.triangle-right').fadeOut(5000);
 });			
