@@ -9,6 +9,6 @@ $(document).ready(function(){
         });
         
         $('page-recolor').click(function(){
-          $('body').css({background-color':'orange'});
+          $('body').css({'background-color':'orange'});
                         });
         });
