@@ -25,3 +25,9 @@ div, img {
 @keyframes recolor {
   to {background: #33ccff;}
 }
+
+@media (max-width 600px) {
+  body {
+    background: red;
+  }
+}
