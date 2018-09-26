@@ -1,13 +1,7 @@
 $(document).ready(function(){
-$('#round-corners').click(function(){
- $('div').css({'border-radius':'10em'});                         
-});
-  
-  $('#text').click(function(){
-    $('p').css({'background-color': 'aqua'});
-               });
- 
- $('img').click(function(){
-  $(this).toggle('explode');
- });
-});
+ $('button').click(function()}
+ $('img').hide();
+};
+                  $(body').click(function(){
+                  $(this).css('background':'black'};
+                              });
