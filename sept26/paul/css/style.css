@@ -22,7 +22,7 @@ div, img {
     to {background: #33ccff;}
   }
 
-  @media (max-width 600px) {
+  @media (max-width: 600px) {
     body {
       background:yellow;
     }
