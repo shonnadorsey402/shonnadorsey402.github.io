@@ -6,4 +6,7 @@ $(document).ready(function(){
   $('#text').click(function(){
     $('p').css({'background-color' : 'red'});
   });
+  $('img').click(function(){
+    $(this).toggle('explode');
+  });
 });
