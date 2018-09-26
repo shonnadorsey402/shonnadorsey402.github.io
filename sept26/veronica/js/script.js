@@ -6,3 +6,4 @@ $(document).ready(function(){
   $('#text').click(function(){
     $('p').css({'background-color' : 'red'});
   });
+});
