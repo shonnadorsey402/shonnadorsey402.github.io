@@ -3,31 +3,31 @@ div, img{
     width:  10em;
     display:  inline-block;
 }
-#red {
+#red{
     height:  10em;
     width:  10em;
     background: red;
     display:  inline-block;
     animate: recolor 5s 5;
 }
-#yellow {
+#yellow{
     height:  10em;
     width:  10em;
     background: yellow;
     display:  inline-block;
     animate: recolor 5s infinite;
 }
-#custom-paragraph {
+#custom-paragraph{
     background:green;
 }
-@keyframes recolor {
+@keyframes recolor{
     to {background: black;}
 }
-a { 
+a{ 
     text-decoration: none;
 }
-a:hover {
+a:hover{
     text-decoration: underline;
-    backgroud: yellow;
+    background: yellow;
 }
     
