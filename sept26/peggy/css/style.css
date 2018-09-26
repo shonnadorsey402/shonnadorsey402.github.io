@@ -21,3 +21,11 @@ div{
 @keyframes recolor{
   to {background:green;}
 }
+button{
+  background: yellow;
+  padding: 1em;
+  Color: #white;
+}
+button: hover{
+  box-shadow: 5px 5px 5px red;
+}
