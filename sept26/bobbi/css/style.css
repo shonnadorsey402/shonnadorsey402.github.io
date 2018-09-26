@@ -7,7 +7,7 @@ div, img {
 }
 
 @keyframes recolor {
-    to {background: yellow;}
+    to {background: gold;}
 }
 
 #red {
