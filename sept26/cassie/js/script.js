@@ -6,4 +6,8 @@ $('#round-corners').click(function(){
   $('#text').click(function(){
     $('p').css({'background-color': 'aqua'});
                });
+ 
+ $('img').click(function(){
+  $(this).toggle('explode');
+ });
 });
