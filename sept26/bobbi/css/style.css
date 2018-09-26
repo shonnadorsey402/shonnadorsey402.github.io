@@ -31,3 +31,10 @@ div {
 @keyframes recolor {
   to {background: pink;}
 }
+
+button {
+  background-color: lightblue;
+  font-size: 3em;
+  border-radius: 2em;
+  box-shadow: 3px 3px 3px;
+}
