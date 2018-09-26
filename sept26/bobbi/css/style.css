@@ -4,6 +4,9 @@ div {
   display: inline-block;
   margin: 2em;
   animation: recolor 5s infinite;
+  
+  @keyframes recolor {
+    to {background: gold;}
 }
 
 #red {
