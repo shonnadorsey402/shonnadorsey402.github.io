@@ -1,6 +1,10 @@
 div {
   height: 10em;
   width: 10em;
+  background: #0066ff;
+  display: inline-block;
+  margin: 2em;
+  animation: recolor 5s infinite;
 }
 
 #red {
