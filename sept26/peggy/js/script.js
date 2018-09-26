@@ -7,3 +7,8 @@ $(document).ready(function(){
     $('p').css({'background-color':'red'});
   });
 });
+
+$('image').click(function() {
+  $(this).toggle('explode');
+});
+});
