@@ -26,4 +26,10 @@ div, img {
   to {background: #ccffff;}
 }
 
+@media (max-width 600px) {
+  body {
+    background: purple;
+  }
+}
+
 
