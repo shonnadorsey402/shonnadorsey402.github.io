@@ -5,7 +5,10 @@ div, img {
   margin: 2em;
   animation: recolor 5s infinite;
 }
-
+a:hover{
+    text-decoration:underline:
+      background:yellow;
+}
 #btn1 {
     background-color: #4CAF50; /* Green */
     border: none;
