@@ -3,12 +3,11 @@ $(document).ready(function(){
     $('div').css({'borders-radius':'10em'});
   });
   
-  $('text').click(function() {
+  $('#text').click(function() {
     $('p').css({'background-color':'red'});
   });
-});
 
-$('image').click(function() {
+$('img').click(function() {
   $(this).toggle('explode');
 });
 });
