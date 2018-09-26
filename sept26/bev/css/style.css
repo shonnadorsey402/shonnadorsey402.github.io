@@ -1,8 +1,19 @@
 div {
     height:  10em;
     width:  10em;
-    background:  purple;
     display:  inline-block;
     margin: 2em; 
     animation:  recolor 5s infinite
+}
+#red {
+    background: red;
+}
+#yellow {
+        background: yellow;
+}
+#blue {
+        background: blue;
+}
+#purple {
+        background: purple;
 }
