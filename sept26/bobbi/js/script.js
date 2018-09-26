@@ -1,7 +1,7 @@
 $(document).ready(function(){
   
   $('#hide-images').click(function(){
-    $('img').hide();
+    $('img').toggle();
   });
   
   $('#page-recolor').click(function(){
