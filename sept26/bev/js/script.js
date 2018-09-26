@@ -5,3 +5,4 @@ $('#round-corners').click(function(){
 $('#text').click(function(){
   $('#custom-paragraph').css({background-color':'blue'});
 });
+});
