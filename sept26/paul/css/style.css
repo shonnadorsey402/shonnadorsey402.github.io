@@ -18,5 +18,5 @@ div, img {
 }
 
   @keyframes recolor {
-    to {background: yellow;}
+    to {background: #33ccff;}
   }
