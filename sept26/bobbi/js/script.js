@@ -6,4 +6,8 @@ $(document).ready(function(){
   $('#text').click(function(){
     $('#custom-paragraph').css({'background-color':'magenta'});
   });
+  
+  $('img').click(function() {
+   $(this).toggle('explode');
+  });
 });
