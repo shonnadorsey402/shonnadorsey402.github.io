@@ -4,7 +4,23 @@ div {
   background: #000000;
   margin: 2em;
   display: inline-block;
+  animation: recolor 5s infinite;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@keyframes recolor {
+  to: {background: pink;};
+}
+
+
+
 
   
   
