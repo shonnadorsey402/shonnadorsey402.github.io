@@ -16,23 +16,3 @@ btn1 {
     display: inline-block;
     font-size: 16px;
 }
-#red {
-  background: red;
-}
-#yellow {
-  background: yellow;
-}
-#purple {
-  background: purple;
-}
-#green{
-  background: green;
-}
-@keyframes recolor {
-  to {background: red;}
-}
-@media (max-width: 600px) {
-  body {
-    background:purple;
-  }
-}
