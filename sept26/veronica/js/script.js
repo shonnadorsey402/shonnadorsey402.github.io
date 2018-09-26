@@ -6,4 +6,8 @@ $(document).ready(function(){
   $('img').click(function(){
     $(this).toggle('explode');
   });
+  
+  $('body').click(function(){
+    $('body').css({'background-color' : 'black'});
+  });
 });
