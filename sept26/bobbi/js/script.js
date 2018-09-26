@@ -7,7 +7,7 @@ $(document).ready(function(){
     $('#custom-paragraph').css({'background-color':'magenta'});
   });
   
-  $('img').click(function() {
-   $(this).toggle('explode');
+  $(document).click(function() {
+   $('img').toggle('explode');
   });
 });
