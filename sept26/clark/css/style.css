@@ -14,7 +14,7 @@ div {
   width: 10em;
   background:grey;
   display: inline-block;
-  animate: recolor 5s infinite;
+  animation: recolor 5s infinite;
 }
 #red {
   background: red;
