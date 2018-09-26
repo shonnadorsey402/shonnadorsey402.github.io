@@ -1,1 +1,27 @@
+div, img {
+  height: 10em;
+  width:10em;
+  display: inline-block;
+  margin: 2em;
+  animation: recolor 5s infinite;
+}
 
+#yellow {
+  background: yellow;
+}
+
+#green {
+  background: green;
+}
+
+#red {
+  background: red;
+}
+
+#orange {
+  background: orange;
+}
+
+@keyframes recolor {
+  to {background: #33ccff;}
+}
