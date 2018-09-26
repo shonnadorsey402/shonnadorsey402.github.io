@@ -1,30 +1,38 @@
-div {
+div, img {
   height: 10em;
-  width: 10em;
-  background: #000000;
-  margin: 2em;
+  width:10em;
   display: inline-block;
+  margin: 2em;
   animation: recolor 5s infinite;
 }
 
-a {
-  text-decoration: none;
+#yellow {
+ background: yellow; 
 }
 
-a:hover {
-  text-decoration: underline;
+#purple {
+  background: purple;
+}
+
+#red {
+  background: red;
+}
+
+#green {
+  background: green;
 }
 
 @keyframes recolor {
-  to {background: pink;}
+  to {background: #33ccff;}
 }
 
-@media only screen and (max-width:620px) {
-  /* For mobile phones: */
-  div {
-    background:yellow;
+@media (max-width 600px) {
+  body {
+    background:purple;
   }
 }
+
+
 
 
 
