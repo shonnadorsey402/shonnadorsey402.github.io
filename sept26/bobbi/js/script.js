@@ -1,6 +1,10 @@
 $(document).ready(function(){
   
-  $('button').click(function(){
+  $('#hide-images').click(function(){
     $('img').hide();
+  });
+  
+  $('#page-recolor').click(function(){
+    $('body').css({'background-color':'purple'});
   });
 });
