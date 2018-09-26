@@ -1,7 +1,9 @@
 div {
-  height: 100px;
-  width: 100px;
+  height: 10em;
+  width: 10em;
   background: #000000;
+  margin: 2em;
+  display: inline-block;
 }
 
 #color1 {
