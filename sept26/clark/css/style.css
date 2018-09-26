@@ -1,4 +1,4 @@
-div {
+div, img {
   height: 10em;
   width: 10em;
   display: inline-block;
@@ -20,6 +20,10 @@ div {
 
 #green {
   background: green;
+}
+
+@keyframes recolor {
+  to {background: #ccffff;}
 }
 
 
