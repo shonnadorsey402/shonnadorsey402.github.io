@@ -4,8 +4,9 @@ div, img {
   display: inline-block;
   margin: 2em;
   animation: recolor 5s infinite;
-  
-  @keyframes recolor {
+}
+
+@keyframes recolor {
     to {background: yellow;}
 }
 
