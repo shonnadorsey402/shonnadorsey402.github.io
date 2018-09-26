@@ -21,7 +21,7 @@ div, img{
     background:green;
 }
 @keyframes recolor{
-    to {background: black;}
+    to {background:orange;}
 }
 a{ 
     text-decoration: none;
