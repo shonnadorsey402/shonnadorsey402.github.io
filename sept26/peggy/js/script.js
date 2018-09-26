@@ -5,7 +5,7 @@ $(document).ready(function(){
   });
   
   $(document).ready(function(){
-    $('#img-hide").click(function(){
+    $('#img-hide').click(function(){
       $('img').hide(){
     });
     
