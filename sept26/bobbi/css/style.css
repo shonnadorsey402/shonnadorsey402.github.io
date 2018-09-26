@@ -1,33 +1,33 @@
-div, img {
+img {
   height: 10em;
   width: 10em;
-  display: inline-block;
-  margin: 2em;
-  animation: recolor 5s infinite;
 }
 
-@keyframes recolor {
-    to {background: gold;}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  background: yellow;
+}
+
+div {
+  height: 10em;
+  width: 10em;
+  background: lightblue;
+  display: inline-block;
+  animation: recolor 5s infinite;
 }
 
 #red {
   background: red;
 }
 
-#green {
-  background: green;
-}
-
-#purple {
-  background: purple;
-}
-
 #blue {
   background: blue;
 }
 
-@media (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
+@keyframes recolor {
+  to {background: pink;}
 }
