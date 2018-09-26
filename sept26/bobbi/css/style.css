@@ -26,8 +26,8 @@ div, img {
   background: blue;
 }
 
-@media (max-width 600px) {
+@media (max-width: 600px) {
   body {
-    background-color: red;
+    background-color: lightblue;
   }
 }
