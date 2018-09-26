@@ -4,7 +4,7 @@ $(document).ready(function(){
   });
   
   $(#text).click(function(){
-    $('#custom-paragraph).css({'background-color','yellow'});
+    $('#custom-paragraph').css({'background-color','yellow'});
   });
 
 });
