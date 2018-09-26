@@ -6,7 +6,7 @@ div, img {
   animation: recolor 5s infinite;
 }
 
-.button {
+btn1 {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
