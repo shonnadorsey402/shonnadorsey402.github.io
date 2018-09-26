@@ -2,26 +2,32 @@ div, img{
     height:  10em;
     width:  10em;
     display:  inline-block;
-    margin: 2em; 
-    animation:  recolor 5s infinite;
 }
 #red {
+    height:  10em;
+    width:  10em;
     background: red;
+    display:  inline-block;
+    animate: recolor 5s 5;
 }
 #yellow {
-        background: yellow;
+    height:  10em;
+    width:  10em;
+    background: yellow;
+    display:  inline-block;
+    animate: recolor 5s infinite;
 }
-#blue {
-        background: blue;
-}
-#purple {
-        background: purple;
+#custom-paragraph {
+    background:green;
 }
 @keyframes recolor {
-    to {background: #33ccff;}
+    to {background: black;}
 }
-@media (max-width: 600px) {
-    body {
-        background:purple;
-    }
+a { 
+    text-decoration: none;
 }
+a:hover {
+    text-decoration: underline;
+    backgroud: yellow;
+}
+    
