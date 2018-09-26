@@ -5,6 +5,6 @@ $(document).ready(function(){
   });
   
   $('#page-recolor').click(function(){
-    $('body').css({'background-color':'purple'});
+    $('body').css({'background-color':'orange'});
   });
 });
