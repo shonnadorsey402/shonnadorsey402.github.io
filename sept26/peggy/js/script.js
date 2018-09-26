@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $('#round-corners').click(function(){
-    $('div').css({'borders-radius':'10em'});
+    $('div').css({'border-radius':'10em'});
   });
   
   $('#text').click(function() {
