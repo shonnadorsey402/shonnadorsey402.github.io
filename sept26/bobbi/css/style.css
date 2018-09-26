@@ -23,7 +23,7 @@ a:hover {
 div {
   height: 10em;
   width: 10em;
-  background: lightblue;
+  background: lightblue !important;
   display: inline-block;
   animation: recolor 5s infinite;
 }
