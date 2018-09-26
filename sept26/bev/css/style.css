@@ -17,3 +17,6 @@ div, img{
 #purple {
         background: purple;
 }
+@keyframes recolor {
+    to {background: #33ccff;}
+}
