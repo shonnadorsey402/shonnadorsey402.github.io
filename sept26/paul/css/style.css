@@ -3,7 +3,7 @@ div, img {
   width: 10em;
   display: inline-block;
   margin: 2em;
-  annimation: recolor 5s infinite;
+  annimate: recolor 5s infinite;
 }
 #blue {
   background:blue;
