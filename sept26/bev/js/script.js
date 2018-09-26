@@ -1,11 +1,8 @@
 $(document).ready(function(){
-$('#round-corners').click(function(){
-  $('div').css({'border-radius':'10em'});
+$('button').click(function(){
+  $('img').hide();
 });
-$('#text').click(function(){
-  $('#custom-paragraph').css({'background-color':'blue'});
-});
-$('img').click(function() {
-  $(this).toggle('explode');
+$('body').click(function() {
+  $('body').css({background:'purple'})
 });
 });
