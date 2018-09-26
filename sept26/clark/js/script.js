@@ -1,11 +1,14 @@
 $(document).ready(function(){
-$('#round-corners').click(function(){
-  $('div').css({'border-radius':'10em'});
-});
-  $('#text').click(function(){
-    $('#custom-paragraph').css({'background-color':'red'});
+  $('button').click(function(){
+  $('img').hide(){
   });
-  $('img').click(function(){
-    $(this).toggle('explode');
   });
-});
+    $(document).ready(function(){
+      $('#img-hide').click(function(){
+        $('img').hide(){
+        });
+        
+        $('page-recolor').click(function(){
+          $('body').css({background-color':'orange'});
+                        });
+        });
