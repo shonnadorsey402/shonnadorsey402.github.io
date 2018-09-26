@@ -36,5 +36,8 @@ button {
   background-color: lightblue;
   font-size: 1.5em;
   border-radius: 1.5em;
+}
+
+button:hover {
   box-shadow: 10px 10px 10px;
 }
