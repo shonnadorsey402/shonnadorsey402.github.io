@@ -5,7 +5,7 @@ $('#round-corners').click(function(){
   $('#text').click(function(){
     $('#custom-paragraph').css({'background-color':'red'});
   });
-  $('ing').click(function(){
+  $('img').click(function(){
     $(this).toggle('explode');
   });
 });
