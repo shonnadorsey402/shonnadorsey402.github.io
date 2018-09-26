@@ -16,7 +16,14 @@ a:hover {
 }
 
 @keyframes recolor {
-  to: {background: pink;};
+  to: {background: pink;}
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  div {
+    background:yellow;
+  }
 }
 
 
