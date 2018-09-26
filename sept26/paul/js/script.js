@@ -5,7 +5,7 @@ $(document).ready(function(){
 
 
      
-      $('page-recolor').click(function(){
+      $('body').click(function(){
       $('body').css({'background-color':'red'});
     });
 });   
