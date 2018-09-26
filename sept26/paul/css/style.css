@@ -1,1 +1,18 @@
-
+div {
+  height: 10em;
+  width: 10em;
+  display: inline-block;
+  margin: 2em;
+  annimation: recolor 5s infinite;
+#blue {
+  background:blue;
+}
+#green {
+  background:green;
+}
+  #orange {
+  background:orange;
+}
+  #purple {
+  background:purple;
+}
