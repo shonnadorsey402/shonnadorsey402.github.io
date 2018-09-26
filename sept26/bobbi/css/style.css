@@ -28,6 +28,6 @@ div, img {
 
 @media (max-width 600px) {
   body {
-    background: magenta;
+    background-color: lightblue;
   }
 }
