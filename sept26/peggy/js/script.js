@@ -1,13 +1,16 @@
 $(document).ready(function(){
-  $('#round-corners').click(function(){
-    $('div').css({'border-radius':'10em'});
+  $('button').click(function(){
+    $('img').hide(){
+    });
   });
   
-  $('#text').click(function() {
-    $('p').css({'background-color':'red'});
+  $(document).ready(function(){
+    $('#img-hide").click(function(){
+      $('img').hide(){
+    });
+    
+    $('page-recolor').click(function(){
+      $('body').css({'background-color': 'black'});
+    });
   });
-
-$('img').click(function() {
-  $(this).toggle('explode');
-});
-});
+  
