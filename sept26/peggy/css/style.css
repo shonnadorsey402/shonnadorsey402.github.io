@@ -1,33 +1,23 @@
-div, img {
-  height: 10em;
-  width:10em;
-  display: inline-block;
-  margin: 2em;
-  animation: recolor 5s infinite;
+img{
+Height: 12em;
+width: 10em;
 }
-
-#yellow {
-  background: yellow;
-}
-
-#green {
-  background: green;
-}
-
-#red {
-  background: red;
-}
-
-#orange {
-  background: orange;
-}
-
-@keyframes recolor {
-  to {background: #33ccff;}
-}
-
-@media (max-width: 600px) {
-  body {
-    background: black;
+  a{
+    text-decoration: none;
   }
+  a:hover{
+    test-decoration: underline:
+      background: yellow;
+}
+div{
+  height: 10em;
+  width: 10em;
+  background: blue;
+  display: inline-block;
+  animate: recolor 5s infinite;
+}
+<div id='red'
+}
+@keyframes recolor{
+  to {background:green;}
 }
