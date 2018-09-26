@@ -1,1 +1,8 @@
-
+div {
+    height:  10em;
+    width:  10em;
+    background:  purple;
+    display:  inline-block;
+    margin: 2em; 
+    animation:  recolor 5s infinite
+}
