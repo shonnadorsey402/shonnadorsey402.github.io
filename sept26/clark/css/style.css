@@ -1,35 +1,25 @@
-div, img {
+div {
   height: 10em;
-  width: 10em;
-  display: inline-block;
-  margin: 2em;
-  animation: recolor 5s infinite;
+  weidth: 10em;
 }
-
-#yellow {
+a{
+  test-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
   background: yellow;
 }
-
+div {
+  height: 10em;
+  width: 10em;
+  background: INSERT COLOR;
+  display: inline-block;
+  animate: recolor 5s infinite;
+}
 #red {
   background: red;
 }
-
-#blue {
-  background: blue;
-}
-
-#green {
-  background: green;
-}
-
 @keyframes recolor {
-  to {background: #ccffff;}
+  to {background: INSERT COLOR;}
 }
-
-@media (max-width: 600px) {
-  body {
-    background: purple;
-  }
-}
-
-
+  
