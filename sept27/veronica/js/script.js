@@ -9,7 +9,7 @@ $('button').click(function(){
     $('div').css({'border-radius':'100px'});
   });
   $('body').click(function(){
-    $('body').css({'background-color':'red'});
+    $('body').css({'background-color':'pink'});
   });
   $('div').click(function(){
     $(this).hide();
