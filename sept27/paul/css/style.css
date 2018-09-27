@@ -12,7 +12,7 @@ a:hover{
 div{
   height: 10em;
   width: 10em;
-  background: pink;
+  background: green;
     display: inline-block;
   animate: recolor 5s infinite;
 }
