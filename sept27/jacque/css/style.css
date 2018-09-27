@@ -1,37 +1,16 @@
-div, img {
-  height: 10em;
-  width: 10em;
-  display: inline-block;
-  margin: 1em;
-  animation: recolor 5s infinite;
-  -webkit-animation: recolor 5s infinite;
-}
+img{
+   height:3em;
+   width:3em;
+   }
+   a{
+   text-decoration: underline:
+   background: yellow;
+   }
 
-#purple {
+div{
+  height: 5em;
+  width: 5em;
   background: purple;
-}
-#blue {
-  background: blue;
-}
-#orange {
-  background: orange;
-}
-#green {
-  background: green;
-}
-
-@-webkit-keyframes recolor {
-  to {
-    background: blue;
-  }
-}
-
-keyframes recolor {
-  to {
-    background: blue;
-  }
-}
-
-@media (max-width:800px) {
-  body {background:skyblue;}
+  display: inline-block;
+  animate: recolor 5s infinite;
 }
