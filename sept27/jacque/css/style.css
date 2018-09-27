@@ -4,7 +4,7 @@ div, img {
   display: inline-block;
   margin: 1em;
   animation: recolor 5s infinite;
-  -webkit-animation: recolor 5s infinte;
+  -webkit-animation: recolor 5s infinite;
 }
 
 #purple {
@@ -22,18 +22,12 @@ div, img {
 
 @-webkit-keyframes recolor {
   to {
-    background: blue:
+    background: blue;
   }
 }
 
-recolor {
+keyframes recolor {
   to {
-    background: orange:
-  }
-}
-
-recolor {
-  to {
-    background: green:
+    background: blue;
   }
 }
