@@ -18,7 +18,7 @@ div{
   -webkit-animation: recolor 5s infinite;
 }
 #red{
-  background: blue;
+  background: red;
 }
 @keyframes recolor {
   to {background:gray;}
