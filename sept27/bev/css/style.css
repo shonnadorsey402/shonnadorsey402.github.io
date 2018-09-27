@@ -19,13 +19,18 @@
      background: black;
      
   #green {
-      backgroun: green;
+      background: green;
      }
-     
-     @keyframes recolor {
-         to {
+  
+    @-webkit-keyframes recolor {
+     to {
              background: red;
          }
-     }
+     }    
+     @keyframes recolor {
+      to {
+             background: red;
+         }
+     }   
   
        
