@@ -31,3 +31,7 @@ keyframes recolor {
     background: blue;
   }
 }
+
+@media (max-width:600px) {
+  body {background:green;}
+}
