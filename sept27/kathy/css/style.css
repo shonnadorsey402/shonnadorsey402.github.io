@@ -11,7 +11,7 @@ div{
   animate: recolor 5s infinite;
 }
 
-<div id='red'></div>
+
 #red {
   background: red;
 }
