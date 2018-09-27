@@ -1,4 +1,4 @@
-div, img {
+ img {
     
      height: 10em;
      width: 10em;
@@ -23,7 +23,9 @@ div, img {
 }
 
 @media (max-width:600px){
-    background: Blue;
+    body{
+        
+    background: blue;
 }
 }
 
