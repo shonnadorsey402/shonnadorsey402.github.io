@@ -2,7 +2,7 @@ img{
    height:3em;
    width:3em;
    }
-   a{
+   a {
    text-decoration: underline:
    background: yellow;
    }
@@ -19,6 +19,6 @@ div{
 }
 
 @media (max-width:600px){
-   background: lime;
+   background:green;
 }
 }
