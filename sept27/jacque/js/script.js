@@ -4,9 +4,11 @@ $('#hide-image').click(function(){
   )};     
   $('#text').click(function(){
  $('p').css({'backround-color':'purple'});
-}
-  
-                  
+});
+  $('# round-corners').click(function(){
+    $('div').css({'border-radius':'100'});
+  });
+                    
  $('div').click(function(){
   $(this).hide();
 });
