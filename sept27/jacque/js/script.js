@@ -1,15 +1,10 @@
 $(document).ready(function(){
-$('#hide-image').click(function(){
-  $('img').hide();
-  )};     
-  $('#text').click(function(){
- $('p').css({'backround-color':'purple'});
+$('button').click(function(){
+  $('img'.hide(){
+    });
 });
-  $('#round-corners').click(function(){
-    $('div').css({'border-radius':'100px'});
-  });
-                    
- $('div').click(function(){
-  $(this).hide();
-});
-});
+  
+  $('page-recolor').click(function(){
+    $('body').css({background-color':'pink(){;
+      });
+    });
