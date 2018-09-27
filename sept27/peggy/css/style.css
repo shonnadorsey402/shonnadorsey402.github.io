@@ -40,4 +40,15 @@ div{
       background: gold;
     }
   }
-  
+
+  button {
+    background:green;
+    color: white
+      border-radius: 1em;
+    padding: 2em;
+}
+
+button:hover {
+  box-shadow: 5px 5px 5px blue;
+}
+
