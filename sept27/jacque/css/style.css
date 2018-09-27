@@ -10,13 +10,13 @@ div, img {
   background purple;
 }
 #blue {
-  background: blue'
+  background: blue;
 }
 #orange {
-  background: orange
+  background: orange;
 }
 #green {
-  background: green
+  background: green;
 }
 
 @keyframes recolor {
