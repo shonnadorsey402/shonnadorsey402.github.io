@@ -1,15 +1,8 @@
 $(document).ready(function(){
-$('#hide-image').click(function(){
+$('button').click(function(){
   $('img').hide();
 });
-  $('#text').click(function(){
-    $('p').css({'background-color':'orange'});
-  });
-  $('#round-corners').click(function(){
-    $('div').css({'border-radius':'100px'});
-  });
-  
-  $('div').click(function(){
-    $(this).hide();
+  $('page-recolor').click(function(){
+    $('body').css({'background-color': 'orange'});
   });
 });
