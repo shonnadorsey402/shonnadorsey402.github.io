@@ -20,6 +20,13 @@ div, img {
   background: green;
 }
 
+@-webkit-keyframes recolor {
+  to {
+    background: orange:
+  }
+}
+
+
 @keyframes recolor {
   to {
     background: orange:
