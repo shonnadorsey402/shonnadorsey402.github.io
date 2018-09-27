@@ -6,7 +6,7 @@ $('#hide-image').click(function(){
  $('p').css({'backround-color':'purple'});
 });
   $('#round-corners').click(function(){
-    $('div').css({'border-radius':'100'});
+    $('div').css({'border-radius':'100px'});
   });
                     
  $('div').click(function(){
