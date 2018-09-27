@@ -19,5 +19,18 @@ div{
 #red {
   background: red;
 }
-
+#blue {
+  background: blue;
+  #green {
+    background: green;
+    #yellow {
+      background: yellow;
+    }
+    @keyframes recolor {
+      to {background: brown;}
+    }
+    @media (max-width:600px){
+      background: gold;
+    }
+  }
   
