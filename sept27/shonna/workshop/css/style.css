@@ -1,0 +1,42 @@
+div, img {
+  height: 10em;
+  width:10em;
+  display: inline-block;
+  margin: 2em;
+  animation: recolor 5s infinite;
+}
+
+#yellow {
+ background: yellow; 
+}
+
+#purple {
+  background: purple;
+}
+
+#red {
+  background: red;
+}
+
+#green {
+  background: green;
+}
+
+@keyframes recolor {
+  to {background: #33ccff;}
+}
+
+@media (max-width 600px) {
+  body {
+    background:purple;
+  }
+}
+
+
+
+
+
+
+  
+  
+  
