@@ -13,11 +13,8 @@ div, img {
 #grey {
   background: grey;
 }
-#lavender {
-  background: lavender;
-}
-#purple {
-  background: purple;
+#orange-paragraph{
+  color:orange;
 }
 
 @-webkit-keyframes recolor {
