@@ -20,10 +20,11 @@ div,img {
   background: green:
 }
 
-@-webkit-animation: recolor 5s infinite;
+@-webkit-keyframes recolor {
   to {
     background: purple;
   }
+}
 
 @keyframes recolor {
   to {
