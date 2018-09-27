@@ -20,6 +20,11 @@ div{
 #red{
   background: #d71f5a;
 }
+
+#blue{
+  background; #33ccff;
+}
+
 @keyframes recolor {
   to {background:gray;}
 }
