@@ -36,5 +36,5 @@ div, img {
 }
 
 @media(max-width:600px) {
-  body {background:pink;}
+  body {background:brown;}
 }
