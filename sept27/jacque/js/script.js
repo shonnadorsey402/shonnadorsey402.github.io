@@ -1,8 +1,13 @@
 $(document).ready(function(){
-$('button').click(function(){
+$('#hide-image').click(function(){
   $('img').hide();
-  )};                 
-  $('div').click(function(){
+  )};     
+  $('#text').click(function(){
+ $('p').css({'backround-color':'purple'});
+}
+  
+                  
+ $('div').click(function(){
   $(this).hide();
 });
 });
