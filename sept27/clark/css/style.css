@@ -28,4 +28,13 @@
     background: blue;
 }
 }
+button {
+ background:black;
+ color:white;
+ border-radius: 1em;
+ padding: 2em;
+}
 
+button:hover {
+ box-shadow: 5px 5px 5px gray;
+}
