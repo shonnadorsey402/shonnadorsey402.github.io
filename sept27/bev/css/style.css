@@ -32,5 +32,8 @@ div,img {
              background: red;
          }
      }   
-  
+  @media (max-width:600px) {
+      body{background:yellow;}
+}
+
        
