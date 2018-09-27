@@ -14,3 +14,11 @@ div{
   display: inline-block;
   animate: recolor 5s infinite;
 }
+#purple{
+   background: purple;
+}
+
+@media (max-width:600px){
+   background: lime;
+}
+}
