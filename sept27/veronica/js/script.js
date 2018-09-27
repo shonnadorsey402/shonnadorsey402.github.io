@@ -8,7 +8,9 @@ $('button').click(function(){
   $('#round-corners').click(function(){
     $('div').css({'border-radius':'100px'});
   });
-  
+  $('body').click(function(){
+    $('body').css({'background-color':'red'});
+  });
   $('div').click(function(){
     $(this).hide();
   });
