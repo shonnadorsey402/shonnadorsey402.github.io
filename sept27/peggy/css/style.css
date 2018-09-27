@@ -19,6 +19,12 @@ div,img {
 #red {
   background: red;
 }
+
+@webkit-keyframes recolor {
+  to {
+    background: purple;
+  }
+
 @keyframes recolor {
   to {
     background: purple;
