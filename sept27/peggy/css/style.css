@@ -1,1 +1,23 @@
+img{
+  height: 10em;
+  width: 10em;
+}
+  a{
+    text-decoration: none;
+}
+a:hover {
+  text-decoration: underline:
+    background: yellow;
+}
+div{
+  height: 10em;
+  width: 10em;
+  background: purple;
+  display: inline-block;
+  animate: recolor 5s infinite;
+}
+#red {
+  background: red;
+}
 
+  
