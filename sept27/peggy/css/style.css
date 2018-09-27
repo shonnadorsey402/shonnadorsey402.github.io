@@ -14,22 +14,29 @@ div{
   width: 10em;
   background: purple;
   display: inline-block;
-  animate: recolor 5s infinite;
+  -webkit-animation: recolor 5s infinite;
+  animation: recolor 5s infinite;
 }
 #red {
   background: red;
 }
 #blue {
   background: blue;
+}
   #green {
     background: green;
+}
     #yellow {
       background: yellow;
     }
-    @keyframes recolor {
+    @-webkit-keyframes recolor {
+      to {background: brown;}
+    }
+ @keyframes recolor {
       to {background: brown;}
     }
     @media (max-width:600px){
+      body{
       background: gold;
     }
   }
