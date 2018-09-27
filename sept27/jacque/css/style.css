@@ -4,6 +4,7 @@ div, img {
   display: inline-block;
   margin: 1em;
   animation: recolor 5s infinite;
+  -webkit-animation: recolor 5s infinte;
 }
 
 #purple {
