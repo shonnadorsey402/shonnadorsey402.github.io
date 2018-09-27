@@ -5,7 +5,7 @@ $(document).ready(function(){
   $('#text').click(function(){
     $('p').css({'background-color':'red'});
   });
-  $('round-corners').click(function(){
+  $('#round-corners').click(function(){
     $('div').css({'border-radius':'100px'});
   });
   
