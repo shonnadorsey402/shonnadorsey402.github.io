@@ -4,7 +4,7 @@ $(document).ready(function(){
   });
   
   $('body').click(function(){
-    $('body').css({'background-color': #644143});
+    $('body').css({'background-color': '#644143'});
 
   
   
