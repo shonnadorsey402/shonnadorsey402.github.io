@@ -22,7 +22,11 @@ div{
 }
 
 #id_number_2{
-  background; #33ccff;
+  background: #33ccff;
+}
+
+#first-paragraph{
+  background: #eeff27;
 }
 
 /*--
