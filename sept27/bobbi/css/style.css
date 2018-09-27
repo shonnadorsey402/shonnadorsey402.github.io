@@ -1,43 +1,5 @@
-img {
-  height: 10em;
-  width: 10em;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-  background: yellow;
-}
-
-#red {
-  background: red;
-}
-
-#blue {
-  background: blue;
-}
-
-div {
-  height: 10em;
-  width: 10em;
-  background: lightblue !important;
-  display: inline-block;
-  animation: recolor 5s infinite;
-}
-
-@keyframes recolor {
-  to {background: pink;}
-}
-
-button {
-  background-color: lightblue;
-  font-size: 1.5em;
-  border-radius: 1.5em;
-}
-
-button:hover {
-  box-shadow: 10px 10px 10px;
+div, img{
+    height:  10em;
+    width:  10em;
+    display:  inline-block;
 }
