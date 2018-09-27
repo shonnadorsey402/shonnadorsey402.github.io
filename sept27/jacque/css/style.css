@@ -26,14 +26,13 @@ div, img {
   }
 }
 
-
-@keyframes recolor {
+recolor {
   to {
     background: orange:
   }
 }
 
-@keyframes recolor {
+recolor {
   to {
     background: green:
   }
