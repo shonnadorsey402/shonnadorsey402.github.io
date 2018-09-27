@@ -33,5 +33,5 @@ keyframes recolor {
 }
 
 @media (max-width:600px) {
-  body {background:green;}
+  body {background:yellow;}
 }
