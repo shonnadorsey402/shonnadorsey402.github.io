@@ -25,6 +25,8 @@ div, img {
 @-webkit-keyframes recolor {
     to { 
 background: purple;
+    }
+}
 
         @keyframes recolor {
             to {
