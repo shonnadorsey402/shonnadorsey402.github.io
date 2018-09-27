@@ -1,0 +1,33 @@
+div, img{
+    height:  10em;
+    width:  10em;
+    display:  inline-block;
+}
+#red{
+    height:  10em;
+    width:  10em;
+    background: red;
+    display:  inline-block;
+    animation: recolor 5s infinite;
+}
+#yellow{
+    height:  10em;
+    width:  10em;
+    background: yellow;
+    display:  inline-block;
+    animation: recolor 5s infinite;
+}
+#custom-paragraph{
+    background:green;
+}
+@keyframes recolor{
+    to {background:orange;}
+}
+a{ 
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    background: yellow;
+}
+    
