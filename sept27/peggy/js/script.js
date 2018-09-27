@@ -5,7 +5,7 @@ $('#hide-image').click(function(){
  $('#text').click(function(){
    $('p').css({'background-color':'brown'{);
               });
-   %('#round-corners'div').click(function(){
+   $('#round-corners'div').click(function(){
      $('div').css({'border-radius':'100px'});
  });
   
