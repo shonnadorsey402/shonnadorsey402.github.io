@@ -1,7 +1,7 @@
 div, img {
   height: 10em;
     width: 10em;
-  background:red
+  background:blue
   display: inline-block;
   margin: 1em;
   animation: recolor 5s infinite;
