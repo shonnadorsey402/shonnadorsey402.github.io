@@ -4,7 +4,8 @@ div, img {
    background: yellow;
     display: inline-block;
     animate: recolor 5s infinite;
-    -webkit-animation: recolor 5s infinite
+    -webkit-animation: recolor 5s infinite;
+    border-radius:12em;
 }
 
 #blue {
