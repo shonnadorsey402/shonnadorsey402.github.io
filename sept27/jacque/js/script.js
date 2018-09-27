@@ -4,7 +4,7 @@ $('button').click(function(){
     });
 });
   
-  $('page-recolor').click(function(){
-    $('body').css({background-color':'pink(){;
+  $('body').click(function(){
+    $('body').css({'background-image':'url('https://www.backgroundsy.com/file/large/spiral-rainbow-background.jpg')');
       });
     });
