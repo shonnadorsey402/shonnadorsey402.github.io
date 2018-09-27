@@ -3,9 +3,9 @@ $('#hide-image').click(function(){
   $('img').hide();
 });
  $('#text').click(function(){
-   $('p').css({'background-color':'brown'{);
+   $('p').css({'background-color':'brown'});
               });
-   $('#round-corners'div').click(function(){
+   $('#round-corners').click(function(){
      $('div').css({'border-radius':'100px'});
  });
   
