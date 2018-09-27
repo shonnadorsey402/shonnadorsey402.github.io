@@ -3,6 +3,6 @@ $('button').click(function(){
   $('img').hide();
 });
   $('page-recolor').click(function(){
-    $('body').css({'background-color': 'orange'});
+    $('body').css({'background-color': 'purple'});
   });
 });
