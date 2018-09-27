@@ -42,6 +42,8 @@ button {
 
 button:hover {
   box-shadow:5px 5px 5px gray;
+}
+
 
 /*--
 @keyframes recolor {
