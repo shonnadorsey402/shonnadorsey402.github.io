@@ -1,31 +1,25 @@
-img{
-Height: 12em;
-width: 10em;
-}
-  a{
-    text-decoration: none;
-  }
-  a:hover{
-    test-decoration: underline:
-      background: yellow;
-}
-div{
+div,img { 
   height: 10em;
   width: 10em;
-  background: blue;
   display: inline-block;
-  animate: recolor 5s infinite;
+  margin: 1em;
+  animation: recolor 5s infinite;
 }
-<div id='red'
+
+#blue {
+  background: blue;
 }
-@keyframes recolor{
-  to {background:green;}
+#red  {
+  background: red;
 }
-button{
+#yellow {
   background: yellow;
-  padding: 1em;
-  Color: #white;
 }
-button: hover{
-  box-shadow: 5px 5px 5px red;
+#red {
+  background: red;
+}
+@keyframes recolor {
+  to {
+    background: purple;
+  }
 }
