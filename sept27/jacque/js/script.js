@@ -4,6 +4,6 @@ $('button').click(function(){
     });
   
   $('body').click(function(){
-    $('body').css({'background-image':'url('https://www.backgroundsy.com/file/large/spiral-rainbow-background.jpg')});
+    $('body').css({'background-image':'url('https://www.backgroundsy.com/file/large/spiral-rainbow-background.jpg')'});
       });
     });
