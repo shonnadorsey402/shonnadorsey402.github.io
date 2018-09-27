@@ -1,40 +1,23 @@
-div, img {
+img{
   height: 10em;
   width: 10em;
-  display: inline-block;
-  margin: 1em;
-  animation: recolor 5s inifinite;
-  -webkit-animation: recolor 5s infinite;
 }
 
+div{
+  height: 10em;
+  width: 10em;
+  background: blue;
+  display: inline-block;
+  animate: recolor 5s infinite;
+}
+
+<div id='red'></div>
 #red {
   background: red;
 }
 
-#white {
-  background: white;
-}
-
-#blue {
-  background: blue;
-}
-
-#green {
+@media (max-width: 600px){
   background: green;
 }
-
-@-webkit-keyframes recolor {
-  to {
-    background: purple;
-  }
 }
-
-@keyframes recolor {
-  to {
-    background: purple;
-  }
-}
-
-@media(max-width:600px) {
-  body {background:yellow;}
-}
+    
