@@ -29,6 +29,12 @@ div{
   background: #eeff27;
 }
 
+@media (max-width:600px) {
+  body {background:#f5fdb6;}
+}
+
+
+
 /*--
 @keyframes recolor {
   to {background:gray;}
@@ -37,7 +43,4 @@ div{
   to {background:gray;}
 }  
   
-@media (max-width:600px) {
-  body {background:yellow;}
-}
 --/
