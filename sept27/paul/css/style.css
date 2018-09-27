@@ -14,7 +14,8 @@ div{
   width: 10em;
   background: pink;
     display: inline-block;
-  animate: recolor 5s infinite;
+  animation: recolor 5s infinite;
+  -webkit-animation: recolor 5s infinite;
 }
 #red{
   background: red;
@@ -22,7 +23,9 @@ div{
 @keyframes recolor {
   to {background:gray;}
 }
-  
+@-webkit-keyframes recolor {
+  to {background:gray;}
+}  
   
 @media (max-width:600px) {
   body {background:yellow;}
