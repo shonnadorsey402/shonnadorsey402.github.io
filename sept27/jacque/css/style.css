@@ -19,5 +19,9 @@ div, img {
   background: green
 }
 
-
+@keyframes recolor {
+  to {
+    background: orange:
+  }
+}
 
