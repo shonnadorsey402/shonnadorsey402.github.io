@@ -2,7 +2,7 @@ $(document).ready(function(){
 $('#hide-image').click(function(){
   $('img').hide();
 });
-  $('#text').click(functio(){
+  $('#text').click(function(){
                    $('p').css({'background-color':'red'});
 });
 $('#round-corners').click(function(){
