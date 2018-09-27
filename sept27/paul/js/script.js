@@ -3,7 +3,7 @@ $(document).ready(function(){
     $('img').hide();
   });
   
-  $('#body').click(function(){
+  $('body').click(function(){
     $('body').css({'background-color': #644143});
 
   
