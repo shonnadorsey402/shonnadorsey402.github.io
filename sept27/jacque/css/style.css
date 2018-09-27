@@ -1,1 +1,23 @@
+div, img {
+  height: 10em;
+  width: 10em;
+  display: inline-block;
+  margin: 1em;
+  animation: recolor 5s infinite;
+}
+
+#purple {
+  background purple;
+}
+#blue {
+  background: blue'
+}
+#orange {
+  background: orange
+}
+#green {
+  background: green
+}
+
+
 
