@@ -4,7 +4,7 @@ $('button').click(function(){
 });
   
   $('body').click(function(){
-    $('body').css({'background-color': 'green'});
+    $('body').css({'background-color': 'yellow'});
     
   });
 });
