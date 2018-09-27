@@ -1,39 +1,29 @@
 div, img {
-    height: 10em;
-    width: 10em;
-    display: inline-block;
-    margin: 1em;
-    animation: recolor 5s infinite;
-    -webkit-animation: recolor 5s infinite;
-}
-
-#orange {
-    background: orange; 
- }
-            #purple {
-    background: purple;
-}
-
-#blue {
-    background: blue;
-}
-#green {
-    background: green;
-}
     
-
-@-webkit-keyframes recolor {
-    to { 
-background: purple;
-    }
+     height: 10em;
+     width: 10em;
+     }
+     
+     a{
+      text-decoration: none;
+     }
+     a:hover {
+     text-decoration: underline:
+     background: yellow;
+     }
+     div {
+     height: 10em;
+     width: 10em;
+     background: blue;
+     display: inline-block;
+     animate: recolor 5s infinite;
+     }
+     #red{
+         background: red;
 }
 
-        @keyframes recolor {
-            to {
-                background: purple;
-  }
- }
-        
-@media (max-width:600px)  {
-    body {background: yellow;}
-        }
+@media (max-width: 600px){
+    background: Blue;
+}
+}
+
