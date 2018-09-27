@@ -29,3 +29,7 @@ div, img {
   to{background: green;
   }
 }
+
+@media (max-width:600px) {
+  body {background:yellow;}
+}
