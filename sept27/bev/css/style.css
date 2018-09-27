@@ -19,7 +19,7 @@
       backgroun: green;
      }
      
-     @keyframes recolr {
+     @keyframes recolor {
          to {
              background: red;
          }
