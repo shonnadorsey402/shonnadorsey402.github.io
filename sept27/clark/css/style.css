@@ -1,25 +1,5 @@
-img {
-  height: 10em;
-  weidth: 10em;
+div, img{
+    height:  10em;
+    width:  10em;
+    display:  inline-block;
 }
-a{
-  test-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-  background: yellow;
-}
-div {
-  height: 10em;
-  width: 10em;
-  background:grey;
-  display: inline-block;
-  animation: recolor 5s infinite;
-}
-#red {
-  background: red;
-}
-@keyframes recolor {
-  to {background: pink;}
-}
-  
