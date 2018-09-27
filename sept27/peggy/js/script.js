@@ -4,5 +4,5 @@ $('button').click(function(){
 });
 $('div').click(function(){
   $(this).hide():
-  {);
+});
 });
