@@ -8,7 +8,7 @@
     <style>
     h1 {
       color: #990000;
-      font-style:'Rock Salt';
+      font-family:'Rock Salt';
       }
       
     hr {
