@@ -2,7 +2,6 @@
 <html>
 <head>
   <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
-  <body>
     <style>
     h1 {
       color: #990000;
@@ -11,6 +10,7 @@
 
   </style>  
 </head>
+  <body>
 
   <h1>Welcome!</h1>
   <hr/>
