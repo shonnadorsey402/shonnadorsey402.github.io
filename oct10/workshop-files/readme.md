@@ -12,7 +12,7 @@
       }
       
     hr {
-      color: #990000;
+      background-color: #990000;
     }
   </style> 
   <h1>Welcome!</h1>
